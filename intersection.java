@@ -17,9 +17,13 @@ public class intersection {
                 i++;
                 j++;
             }
-            else{
+            else if(a[i]<b[j])
+            {
                     i++;
                 
+            }
+            else{
+                j++;
             }
         }
         System.out.println(ans.toString());
